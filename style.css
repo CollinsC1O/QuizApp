@@ -22,6 +22,14 @@ body {
                 0px 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* to make info_box visible immediately start_btn is clicked, we add activeInfo class from the css and style */
+/* activeInfo added */
+.info_box.activeInfo{
+    opacity: 1;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(1);
+}
+
 .start_btn button {
     font-size: 25px;
     font-weight: 500;
