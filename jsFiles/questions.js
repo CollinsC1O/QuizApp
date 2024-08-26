@@ -68,7 +68,7 @@ let questions = [
     },
     {
         numb: 7,
-        question: "cairo can be used in write provable programs",
+        question: "cairo can be used to write provable programs",
         answer: "true",
         option: [
             "false",
@@ -121,4 +121,93 @@ let questions = [
             "repeat"
         ]
     },
+    {
+        numb: 12,
+        question: "What is the file extension for Cairo source files?",
+        answer: ".cairo",
+        option: [
+            ".cairo",
+            ".ciarro",
+            ".stark",
+            ".cr"
+        ]
+    },
+    {
+        numb: 13,
+        question: "What is the primary use of the Cairo programming language?",
+        answer: "Smart contracts on StarkNet",
+        option: [
+            "Web development",
+            "Mobile app development",
+            "Smart contracts on StarkNet",
+            "Data analysis"
+        ]
+    },
+    {
+        numb: 14,
+        question: "Which of the following is a key feature of Cairo?",
+        answer: "Zero-knowledge proofs",
+        option: [
+            "Functional programming",
+            "Machine learning integration",
+            "Zero-knowledge proofs",
+            "Object-oriented programming"
+        ]
+    },
+    {
+        numb: 16,
+        question: "Which platform primarily uses Cairo for its smart contracts?",
+        answer: "StarkNet",
+        option: [
+            "Ethereum",
+            "Solana",
+            "StarkNet",
+            "Bitcoin"
+        ]
+    },
+    {
+        numb: 17,
+        question: "Which of the following is NOT a benefit of using modules?",
+        answer: "Modules boost the runtime performance of interdependent code within the same module",
+        option: [
+            "Modules provide a scope to avoid naming conflicts across parts of a codebase",
+            "Modules boost the runtime performance of interdependent code within the same module",
+            "Modules encapsulate implementation details that shouldn't be used by external clients",
+            "Modules group related code so programmers can more easily work on a large codebase"
+        ]
+    },
+    {
+        numb: 18,
+        question: "What is the first word of an absolute path?",
+        answer: "Package name",
+        option: [
+            "Package name",
+            "Folder name",
+            "Module name",
+            "file name"
+        ]
+    },
+    {
+        numb: 19,
+        question: "Which of the following statements best describes the function of the `use` keyword?",
+        answer: "`use` reduces the verbosity of referring to items in the used path",
+        option: [
+            "`use` reduces the verbosity of referring to items in the used path",
+            "`use` copies the contents of an item from one module to another",
+            "`use` allows access to items that circumvents normal privacy rules",
+            "`use` indicates to the compiler that an item will be used and should be optimized"
+        ]
+    },
+    {
+        numb: 20,
+        question: "Which of the following is a Cairo data type?",
+        answer: "felt",
+        option: [
+            "string",
+            "int",
+            "felt",
+            "`float"
+        ]
+    },
+
 ]
