@@ -206,7 +206,7 @@ let questions = [
             "string",
             "int",
             "felt",
-            "`float"
+            "float"
         ]
     },
 
