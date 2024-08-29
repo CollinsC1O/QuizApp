@@ -209,5 +209,114 @@ let questions = [
             "float"
         ]
     },
-
+    {
+        numb: 21,
+        question: "What is the primary advantage of using Cairo for smart contracts?",
+        answer: "Scalability",
+        option: [
+            "Simplicity",
+            "Security",
+            "Scalability",
+            "Speed"
+        ]
+    },
+    {
+        numb: 22,
+        question: "What is the keyword used to define a constant in Cairo?",
+        answer: "const",
+        option: [
+            "constant",
+            "const",
+            "cnst",
+            "let"
+        ]
+    },
+    {
+        numb: 23,
+        question: "What is the primary use of the 'assert' statement in Cairo?",
+        answer: "To check conditions",
+        option: [
+            "To import modules",
+            "To declare variables",
+            "To define functions",
+            "To check conditions"
+        ]
+    },
+    {
+        numb: 24,
+        question: "What is the primary benefit of using traits with generics in Cairo?",
+        answer: "To ensure that generic types conform to certain behaviors",
+        option: [
+            "To ensure that generic types conform to several/different behaviors.",
+            "To increase the execution speed of functions.",
+            "To ensure that generic types conform to certain behaviors",
+            "To automatically deploy smart contracts."
+        ]
+    },
+    {
+        numb: 25,
+        question: "What is the significance of using generics in the context of Starknet contracts, as mentioned?",
+        answer: "To reduce code duplication but may increase contract size",
+        option: [
+            "To reduce code duplication but may increase contract size",
+            "To automatically deploy smart contracts.",
+            "To ensure that generic types conform to certain behaviors",
+            "To increase the execution speed of functions."
+        ]
+    },
+    {
+        numb: 26,
+        question: "How can generics and traits together improve code quality in Cairo?",
+        answer: "By allowing for more concise and flexible code that can work with multiple types.",
+        option: [
+            "Generics and traits have no impact on code quality.",
+            "By eliminating the need for testing and verification of smart contracts.",
+            "By automatically optimizing code for faster execution on the StarkNet.",
+            "By allowing for more concise and flexible code that can work with multiple types."
+        ]
+    },
+    {
+        numb: 27,
+        question: "How does the Cairo compiler handle generics at compile time?",
+        answer: "By creating a new definition for each concrete type that replaces a generic type",
+        option: [
+            "By dynamically typing all variables",
+            "By encrypting the generic types",
+            "By creating a new definition for each concrete type that replaces a generic type",
+            "By ignoring them for performance reasons"
+        ]
+    },
+    {
+        numb: 28,
+        question: "What is the tool for effectively handling the duplication of concepts in cairo?",
+        answer: "Generics",
+        option: [
+            "duplication handler",
+            "Genaric",
+            "structs",
+            "Generics"
+        ]
+    },
+    {
+        numb: 29,
+        question:  "For an element of type T to be comparable, what trait must it implement?",
+        answer: "PartialOrd trait",
+        option: [
+            "Copy trait",
+            "Drop trait",
+            "Print trait",
+            "PartialOrd trait"
+        ]
+    },
+    {
+        numb: 30,
+        question:  "What is the purpose of generic data types in Cairo?",
+        answer: "To allow for the creation of data structures that can operate on any data type.",
+        option: [
+            "To simplify the syntax of the Cairo programming language.",
+            "To allow for the creation of data structures that can operate on any data type.",
+            "To increase the runtime speed of programs.",
+            "To restrict the data types that can be used in a program.",
+        ]
+    },
 ]
