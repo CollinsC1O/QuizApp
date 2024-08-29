@@ -319,4 +319,114 @@ let questions = [
             "To restrict the data types that can be used in a program.",
         ]
     },
+    {
+        numb: 31,
+        question:  "What is the purpose of using generics in Cairo functions?",
+        answer: "To enable functions to operate on different data types without needing multiple, type-specific implementations",
+        option: [
+            "To allow functions to operate only on specific types defined at compile time.",
+            "To restrict the usage of functions to scalar types only.",
+            "To enable functions to operate on different data types without needing multiple, type-specific implementations",
+            "To increase the compilation time by adding complexity to the function definitions."
+        ]
+    },
+    {
+        numb: 32,
+        question: "Which trait must a type implement to be used as a value in a Felt252Dict<T>?",
+        answer: "Felt252DictValue<T>",
+        option: [
+            "Copy<T>",
+            "Felt252DictValue<T>",
+            "UserDatabaseTrait<T>",
+            "Print<T>"
+        ]
+    },
+    {
+        numb: 33,
+        question: "What do generics in Cairo allow a programmer to do?",
+        answer: "Replace specific types with placeholders to reduce code duplication.",
+        option: [
+            "Increase the speed of program compilation.",
+            "Replace specific types with placeholders to reduce code duplication.",
+            "Directly interact with the Cairo VM.",
+            "Automatically optimize smart contracts for gas efficiency."
+        ]
+    },
+    {
+        numb: 34,
+        question: "When are concrete types for generics determined in Cairo?",
+        answer: "At compile time, creating a new definition for each concrete type.",
+        option: [
+            "At runtime when the smart contract is executed.",
+            "At compile time, creating a new definition for each concrete type.",
+            "After deploying the smart contract to the StarkNet.",
+            "Generics remain abstract and are never given concrete types."
+        ]
+    },
+    {
+        numb: 35,
+        question: "What is the primary benefit of using traits with generics in Cairo?",
+        answer:  "To ensure that generic types conform to certain behaviors.",
+        option: [
+            "To increase the execution speed of functions.",
+            "To ensure that generic types conform to certain behaviors.",
+            "To reduce the gas cost of transactions on StarkNet.",
+            "To automatically deploy smart contracts."
+        ]
+    },
+    {
+        numb: 36,
+        question: "How can you pass a variable to a function in Cairo while keeping ownership and allowing it to be mutated?",
+        answer: "Pass it as a mutable reference with `ref`." ,
+        option: [
+            "Pass it by-value.",
+            "Pass it as a mutable reference with `ref`.",
+            "Pass it as a snapshot with `@`.",
+            "Pass it by-reference."
+        ]
+    },
+    {
+        numb: 37,
+        question: "How can you pass a variable to a function in Cairo while keeping ownership and ensuring it won't be mutated?",
+        answer: "Pass it as a snapshot with `@`.",
+        option: [
+            "Pass it by-value.",
+            "Pass it as a mutable reference with `ref`.",
+            "Pass it as a snapshot with `@`.",
+            "Pass it by-reference."
+        ]
+    },
+    {
+        numb: 38,
+        question: "What happens to the ownership of a variable when it is passed by-value to a function in Cairo?",
+        answer: "Ownership of the variable is transferred to the function.",
+        option: [
+            "Ownership of the variable remains with the caller.",
+            "The variable becomes immutable.",
+            "Ownership of the variable is transferred to the function.",
+            "The variable is duplicated."
+        ]
+    },
+    {
+        numb: 39,
+        question: "Which of the following statements is true about passing variables in Cairo?",
+        answer: "Passing by-value transfers ownership of the variable to the function.",
+        option: [
+            "Passing by-value transfers ownership of the variable to the function.",
+            "Passing by-snapshot transfers ownership of the variable to the function.",
+            "Passing by-reference transfers ownership of the variable to the function.",
+            "Passing by-value keeps the ownership of the variable with the caller."
+        ]
+    },
+    {
+        numb: 40,
+        question: "What does it mean for a variable to have one owner in Cairo?",
+        answer: "It means that only one part of the code can modify the variable at any given time.",
+        option: [
+            "It means that the variable can be accessed by multiple parts of the code simultaneously.",
+            "It means that the variable is immutable.",
+            "It means that only one part of the code can modify the variable at any given time.",
+            "It means that the variable can only be used within a single function."
+        ]
+    },
 ]
